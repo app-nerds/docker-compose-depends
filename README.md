@@ -42,3 +42,8 @@ Or string it together like so.
 go run . -in="./docker-compose.yml" -service="your-service-name" | dot -Tpng -o output.png
 ```
 
+You can also list all of the services found in the *docker-compose.yml* file.
+
+```bash
+go run . -in="./docker-compose.yml" -list="true"
+```
