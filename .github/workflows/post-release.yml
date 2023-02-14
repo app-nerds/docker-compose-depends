@@ -24,7 +24,6 @@ jobs:
       - name: Push changes
         uses: EndBug/add-and-commit@v9
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           committer_name: Github Actions
           committer_email: actions@github.com
           add: .
